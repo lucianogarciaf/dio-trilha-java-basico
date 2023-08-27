@@ -5,6 +5,14 @@ package sistemaSmartTv;
 		boolean ligada = false;
 		int canal = 1;
 		int volume = 25;
+		String donoDaTv = "Luciano";
+		
+	public String novoProprietario(String novoDono) {
+		donoDaTv = novoDono;
+		return donoDaTv;
+		
+	}
+		
 	
 	public int somar(int numerox, int numeroy) {
 		int resultado = numerox + numeroy;

@@ -24,12 +24,17 @@ public class Usuario {
 		System.out.println("Canal atual ? " + smartTv.canal);
 		System.out.println("Volume atual ? " + smartTv.volume);
 		System.out.println(smartTv.somar(30,40));
-		
-		
+		System.out.println(smartTv.donoDaTv);
+		System.out.println(smartTv.donoDaTv.length());
+		smartTv.novoProprietario("Jose");
+		System.out.println(smartTv.donoDaTv);		
+		System.out.println(smartTv.donoDaTv.length());
 		
 		
 		
 		
 	}
+	
+
 
 }
